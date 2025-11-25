@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vignesh - Profile</title>
-    <link rel="icon" href="/A.jpg">
+    <link rel="icon" href="/Webdev/A.jpg">
     <style>
         html{
             background: black;
@@ -48,10 +48,11 @@
         .sbox {
             display: inline-block;
             padding: 8px 14px;
-            background: #e8f0ff;
             border-radius: 6px;
             margin-right: 8px;
             margin-bottom: 8px;
+            border-style: solid;
+            border-width: 1.5px;
         }
 
         .highlight {
@@ -85,14 +86,24 @@
             display: inline-block;
             margin-left: 10px;
         }
-
+        .projbox{
+            display:block;
+            margin-top:10px;
+            margin-left:5%;
+            margin-right: 10%;
+            border-color: #1a1a2e;
+            border-style: solid;
+            border-radius: 25px;
+            padding:10px;
+            border-width: 1px;
+        }
     </style>
 </head>
 
 <body>
 
 <header>
-    <h1 class="middle">Vignesh S</h1><br>
+    <h1 class="middle">Vignesh S</h1>
     <nav class="middle">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -128,12 +139,21 @@
     <section id="projects">
         <h2>Projects</h2>
 
-        <div class="sbox" style="display:block; margin-bottom:10px;">
-            Profile Website – a simple profile page built using HTML and CSS.
+        <div class="projbox">
+            <h3>1.Substitution Management System – Python</h3>
+            <p>CLI-based substitution manager that auto-assigns substitute teachers using CSV files and basic python coding.Working:Finds a substitute teacher according to preferred subject, if not available finds a teacher who is less hectic (i.e) has less number of classes in that day.</p>
+            <ul>
+                <li>Languages/Concepts: Python, CSV, File Handling</li>
+                <li>Github link:  <a href="https://github.com/vigneshsun4/substitution-management-system" target="_blank" rel="noopener"><img src="/Webdev/G.png">Substitution management system</a></li>
+            </ul>
         </div>
-
-        <div class="sbox" style="display:block; margin-bottom:10px;">
-           Substitution Management System – a substitution management system for a school using basic Python.
+        
+        <div class="projbox">
+            <h3>2.Profile Website</h3><p>A simple personal profile website built for showcasing my projects, education, and background in a clean and good-looking layout.{This current website}</p>
+            <ul>
+                <li>Languages/Concepts: HTML, CSS</li>
+                <li>Github link:  <a href="https://github.com/vigneshsun4/my-profile" target="_blank" rel="noopener"><img src="/Webdev/G.png">My Profile</a></li>
+            </ul>
         </div>
 
     </section>
@@ -153,10 +173,10 @@
     <section id="contact">
         <h2>Contact</h2>
         <ul style="text-align: center;">
-            <li class="lis"><a href="https://www.linkedin.com/in/vignesh-sundararajan-792515382/" target="_blank"><img src="L.png"> Linkedin</a></li>
-            <li class="lis"><a href="mailto:vigneshsun4@gmail.com" target="_blank"><img src="/G.webp"> vigneshsun4@gmail.com</a></li>
-            <li class="lis"><a href="https://github.com/vigneshsun4" target="_blank"><img src="G.png"> Github</a></li>
-            <li class="lis"><a href="https://www.instagram.com/__vickyy10__/" target="_blank"><img src="I.webp"> Instagram</a></li>
+            <li class="lis"><a href="https://www.linkedin.com/in/vignesh-sundararajan-792515382/" target="_blank"><img src="/Webdev/L.png"> Linkedin</a></li>
+            <li class="lis"><a href="mailto:vigneshs.cs25@rvce.edu.in" target="_blank"><img src="/Webdev/G.webp"> Mail</a></li>
+            <li class="lis"><a href="https://github.com/vigneshsun4" target="_blank"><img src="/Webdev/G.png"> Github</a></li>
+            <li class="lis"><a href="https://www.instagram.com/__vickyy10__/" target="_blank"><img src="/Webdev/I.webp"> Instagram</a></li>
         </ul>
         <p style="text-align: center;">Click to redirect</p>
     </section>
@@ -169,7 +189,3 @@
 
 </body>
 </html>
-
-
-
-
